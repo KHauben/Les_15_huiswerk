@@ -1,0 +1,65 @@
+header{
+   text-align: center; font-size: 30px;
+   padding:5px;
+   }
+body{
+    background-color: cornflowerblue;
+    font-family:'Times New Roman', Times, serif ; color: blanchedalmond;
+    }
+ul a{
+   color: blanchedalmond;
+   text-decoration: none;
+   font-size: large;
+    }
+  li{
+   display: inline-block;
+   height: 22px;
+   min-width:fit-content;
+   padding: 25px 220px;
+   text-align: center;
+   border: 3px;
+   border-style: inset;
+   border-color: blanchedalmond;
+   text-decoration: none;
+    }
+li:hover{
+    background-color:darkslateblue;  font-style: italic;
+    font-size: larger; 
+    }
+h1{
+    text-align: center;
+    padding: 5px;
+    }
+.bodyelementen{
+    background-color:darkslateblue;
+    padding: 15px;
+    margin: 2% 4%;
+    display: block;
+    min-width: 90%;
+    text-align: center; 
+    }
+table{
+        padding: 8px 650px;
+    }
+input[type="text"], input[type="tel"], input[type="email"], textarea, select, button{
+        display: block; 
+        padding: 4px;
+        margin: 15px 575px;
+        width: 400px;
+        box-sizing: border-box;
+        border-radius: 8px; box-shadow: inset 2px 2px 5px darkslateblue;
+        font-family: 'Times New Roman', Times, serif; 
+         }
+textarea{
+        height: 150px;
+        pad: 5px 4px;
+        }
+        button:active{
+        background-color: cornflowerblue; color: blanchedalmond; font-style: italic;
+        }
+footer{
+    text-align: end;
+    font-size: 20px; 
+    padding: 30px; 
+       }
+    
